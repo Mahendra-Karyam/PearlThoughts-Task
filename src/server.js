@@ -1,6 +1,7 @@
 const express = require('express');
 const { EmailService } = require('./EmailService');
 const { MockProviderA, MockProviderB } = require('./providers');
+require('dotenv').config();
 
 const app = express();
 app.use(express.json());
