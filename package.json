@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "npx ts-node src/server.js",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.12",
+    "ts-jest": "^29.4.0"
+  }
+}
