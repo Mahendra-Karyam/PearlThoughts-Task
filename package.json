@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "npx ts-node src/server.js",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "@types/express": "^5.0.3",
