@@ -17,7 +17,7 @@
 
 ## Tech Stack
 
-- TypeScript
+- JavaScript
 - Node.js
 - Express (API)
 - Jest (testing)
